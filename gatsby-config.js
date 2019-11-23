@@ -27,7 +27,7 @@ module.exports = {
       },
     ],
   },
-  pathPrefix: "/gatsby-serif",
+  pathPrefix: "/gatsby-serif-home-CircleCI",
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
