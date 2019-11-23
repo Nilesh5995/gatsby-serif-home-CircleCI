@@ -23,14 +23,15 @@ jobs:
       - run:
           name: Gatsby Build
           command: npm run build
-                git config user.email "nilesh_s@techjoomla.com"
-                git config user.name "nilesh5995"
-      - add_ssh_keys:
-          fingerprints:
-            - "ac:9e:f4:81:08:44:1a:78:13:78:a1:61:81:00:42:5e"
       - run:
           name:  Deploy
           command: npm run deploy
+            git config user.email "nilesh_s@techjoomla.com"
+            git config user.name "nilesh5995"
+      - add_ssh_keys:
+          fingerprints:
+            - "ac:9e:f4:81:08:44:1a:78:13:78:a1:61:81:00:42:5e"
+
 
 
 
