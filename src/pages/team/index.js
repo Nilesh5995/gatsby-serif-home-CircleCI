@@ -4,7 +4,7 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 
 const Team = (props) => {
-  const teams = props.data.allMarkdownRemark.edges;
+  const teams = props.data.allM
   return (
     <Layout bodyClass="page-teams">
       <SEO title="Team" />
