@@ -24,9 +24,6 @@ jobs:
           name: Gatsby Build
           command: npm run build
       - run:
-          name:  Deploy
-          command: npm run deploy
-      - run:
           name:  Authentication with gitHub
           command: |
                 git config user.email "nilesh_s@techjoomla.com"
