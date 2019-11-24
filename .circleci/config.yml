@@ -28,9 +28,12 @@ jobs:
           command: npm run deploy
       - run:
           name:  Authentication with gitHub
-          command: 
+          command: |
                 git config user.email "nilesh_s@techjoomla.com"
                 git config user.name "nilesh5995"
       - add_ssh_keys:
-          fingerprints:
+          fingerprints: 
             - "ac:9e:f4:81:08:44:1a:78:13:78:a1:61:81:00:42:5e"
+      - run:
+          name:  Deploy
+          command: npm run deploy
